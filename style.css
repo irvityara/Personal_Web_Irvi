@@ -67,4 +67,12 @@ h4{
     font-size: xx-large;
     font-weight: bold;
 }
+#copyrights{
+    background-color: bisque;
+    position: sticky;
+    font-size: larger;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 0;
+}
 
