@@ -54,4 +54,17 @@ h1{
     margin-bottom: 250px;
     font-size: 45px;
 }
+.desc-home{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    gap: 50px;
+    background-color: bisque;
+    padding: 50px;
+}
+h4{
+    margin-left: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+}
 
