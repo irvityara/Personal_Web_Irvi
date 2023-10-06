@@ -4,15 +4,27 @@ body{
     margin-right: 20%;
     background-color: blanchedalmond;
 }
-header{
-    padding: 20px;
+main img{
+    margin: 50px;
+    height: 300px;
+    width: 170px;
+    border-radius: 90px;
 }
 .navbar-menu{
     display: flex;
     justify-content: space-between;
     background-color: beige;
     list-style: none;
+    margin-left: 0;
+    padding: 0;
+    width: 20%;
 }
 nav ul li{
-    margin: 10px;
+    font-size:x-large;
+    font-weight:bold;
+    margin: 30px;
+}
+.navbar-menu li a{
+    text-decoration: none;
+    color: #333;
 }
