@@ -1,11 +1,18 @@
 body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 20%;
     margin-right: 20%;
     background-color: blanchedalmond;
+}
+header{
+    padding: 20px;
 }
 .navbar-menu{
     display: flex;
     justify-content: space-between;
     background-color: beige;
     list-style: none;
+}
+nav ul li{
+    margin: 10px;
 }
