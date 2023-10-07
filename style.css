@@ -1,9 +1,18 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
+    background-color: blanchedalmond;
+}
+header{
     margin-left: 20%;
     margin-right: 20%;
-    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+main{
+    margin-left: 20%;
+    margin-right: 20%;
 }
 main img{
     margin: 20px;
@@ -13,12 +22,13 @@ main img{
     border-radius: 30px;
 }
 nav {
-    display: flex;
+    display:flex;
     justify-content: space-between;
 }
-nav p{
+header div p{
     margin: 37px;
     margin-right: 0;
+    margin-left: 0;
     font-weight: bold;
     font-size: xx-large;
     color: #333;
@@ -52,6 +62,7 @@ h1{
 #hero-text{
     margin-top: 50px;
     margin-bottom: 250px;
+    margin-right: 35%;
     font-size: 45px;
 }
 .desc-home{
@@ -61,12 +72,87 @@ h1{
     gap: 50px;
     background-color: bisque;
     padding: 50px;
+    margin-right: 30px;
 }
 h4{
     margin-left: 50px;
     font-size: xx-large;
     font-weight: bold;
 }
+footer{
+    margin-top: 10%;
+    padding-top: 2%;
+    background-color: bisque;
+}
+#text-footer{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 31%;
+}
+#container-form {
+    margin-left: 37%;
+    width: 20%;
+    padding: 50px;
+    padding-right: 70px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    width: 100px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="phone"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form button[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+form button[type="submit"]:hover {
+    background-color: #555;
+}
+.footer-menu{
+    font-size: larger;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    width: 100px;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 38%;
+    position: sticky;
+}
+footer ul li{
+    font-size:x-large;
+    font-weight:bold;
+    margin: 10px;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    color: #333;
+}
+
 #copyrights{
     background-color: bisque;
     position: sticky;
@@ -74,5 +160,6 @@ h4{
     text-align: center;
     padding: 8px;
     margin-bottom: 0;
+    margin-top: 10px;
 }
 
