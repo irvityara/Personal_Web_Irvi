@@ -16,10 +16,10 @@ main{
 }
 .desc-home div img{
     margin: 0;
-    margin-top: 130px;
+    margin-top: 100px;
     margin-bottom: 100px;
-    height: 410px;
-    width: 233px;
+    height: 300px;
+    width: auto;
     border-radius: 10px;
 }
 nav {
@@ -31,7 +31,7 @@ header div p{
     margin-right: 0;
     margin-left: 0;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
     color: #333;
 }
 
@@ -44,7 +44,7 @@ header div p{
     width: 20%;
 }
 nav ul li{
-    font-size:x-large;
+    font-size:large;
     font-weight:bold;
     margin: 30px;
     margin-left: 0;
@@ -62,18 +62,18 @@ h1{
     margin-top: 230px;
     margin-bottom: 10px;
     padding: 0;
-    font-size: 90px;
+    font-size: 70px;
 }
 #hero-text{
     margin-top: 50px;
     margin-bottom: 250px;
     margin-right: 35%;
-    font-size: 45px;
+    font-size: 35px;
 }
 .desc-home{
     display: flex;
     justify-content: space-between;
-    font-size: x-large;
+    font-size: large;
     gap: 50px;
     background-color: bisque;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -86,7 +86,7 @@ h1{
 h4{
     margin-left: 0;
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
 }
 table{
@@ -106,7 +106,7 @@ table{
 #sakura{
     margin-top: 40px;
     padding: 40px;
-    width: 1060px;
+    width: 835px;
     border-style: solid;
     border-color:#555;
     border-width: 2px;
@@ -114,15 +114,15 @@ table{
 #ocean-game{
     margin-top: 100px;
     padding: 40px;
-    width: 600px;
+    width: 400px;
     border-style: solid;
     border-color:#555;
     border-width: 2px;
 }
 #database{
-    margin-top: -100px;
+    margin-top: -180px;
     padding: 40px;
-    width: 550px;
+    width: 400px;
     border-style: solid;
     border-color:#555;
     border-width: 2px;
@@ -130,7 +130,7 @@ table{
 #hero-game{
     margin-top: 100px;
     padding: 30px;
-    width: 320px;
+    width: 300px;
     border-style: solid;
     border-color:#555;
     border-width: 2px;
@@ -145,7 +145,7 @@ footer{
     font-weight: bolder;
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-left: 31%;
+    margin-left: 27%;
 }
 #container-form {
     margin-left: 37%;
@@ -195,7 +195,7 @@ form button[type="submit"]:hover {
     width: 100px;
     padding-top: 30px;
     margin-bottom: 10px;
-    margin-left: 36%;
+    margin-left: 33%;
     position: sticky;
 }
 .footer-contacts{
@@ -207,7 +207,7 @@ form button[type="submit"]:hover {
     width: 100px;
     padding-top: 0;
     margin-bottom: 10px;
-    margin-left: 40%;
+    margin-left: 38%;
     position: sticky;
 }
 footer ul li{
