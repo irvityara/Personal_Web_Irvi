@@ -16,9 +16,10 @@ main{
 }
 main img{
     margin: 0;
+    margin-top: 130px;
     margin-bottom: 100px;
-    height: 400px;
-    width: 225px;
+    height: 410px;
+    width: 233px;
     border-radius: 10px;
 }
 nav {
@@ -71,15 +72,27 @@ h1{
     font-size: x-large;
     gap: 50px;
     background-color: bisque;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 60px;
+    padding-top: 10px;
+    padding-bottom: 0;
     margin-top: 80px;
-    margin-right: 30px;
+    margin-right: 0;
 }
 h4{
     margin-left: 0;
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
+}
+table{
+    width: 100%;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    background-color: bisque;
+    font-size: x-large;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer{
     margin-top: 10%;
